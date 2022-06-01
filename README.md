@@ -162,7 +162,7 @@ Como se puede observar, se tiene una columna llamada "Acción" la cuál nos perm
 Como se puede observar, se tiene una columna llamada "Acción" la cuál nos permite tanto Editar el producto, como Eliminarlo, en este caso al dar clic en el ícono de Editar producto, además de que se cargan de manerá automática los valores actuales en los diferentes campos de formulario para proceder a modificarlo. 
 Al darle clic en el botón de "Cancelar" el aplicativo nos devolverá por medio de Routing a la página principal ("/") sin hacer ningún cambio, sin embargo al realizar un cambio y darle al botón "Actualizar" aparecerá un mensaje de Felicidades en el cuál se le indica al usuario que el cambio se ha realizado de manera exitosa:
 
-  <img src="https://bn1301files.storage.live.com/y4mLM2mw5Bh0VkV5IIZLybT8_vKBl5z6VRuaquDQQqZj67xUjZ51stfjEbNvZPVTRXT3eoX59k4NGxCW8I3aCZsN6qsLMv3-Fw2GIxCMWrL9YjFvRrcgrQWmdDQgJ47IiGAbiVpy0kEpIDm9OiaKjeDi4URN5SF0pCi1tYw7_Ls_rfYxOArok9m8qmfbjEGs8JdEez4LIdn_5at3rtzCtPFr19vlw4mZDmOvvXZGg9pucw?encodeFailures=1&width=1685&height=921" />
+  <img src="https://bn1301files.storage.live.com/y4mmhKtNucrPfxaT31VftR4eCYJYKZtczpYjgDCgkYKKbgAJ3zd7vOcGGhqcpjzKcz3ufEK07L_GdyE02CZJVxf_ozKT3F1TMcVvhmIKxgdqlX4s4lcFsuhUSJFBF5BtVcp7XcKqWzNu8lgsBUZkeMIxL3LCVRrovpzea4ADDIvTW2rRRlJG_si___W7F829QT_xHgrRc9-VSxHRsanEfwEfxY94typsjeUtmiAZMEYyLI?encodeFailures=1&width=1684&height=921" />
   
   <img src="https://bn1301files.storage.live.com/y4m02W7MrOxBxwGVHwqPJAwV2Ixlh5G2vCLtJnZsspsGJlS7gdp8xgIL_f7nFEsdfTnrw4lm1Gb-X7poR_N_3vFXektXACL9vBljlKuMhut15a2PD7RD4FUzg-1NN1W3r17szZBnZZDIRFu6AXq9h6nsuBP7X0F2zVLsnqj4JyssKrU6Ut1MM_ejXQ3gwvQFs_XmXPDRd-3rvf6Jrz3cC5taYainLTSjB1_9NrzwpOmFfQ?encodeFailures=1&width=1685&height=921" />
 
