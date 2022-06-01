@@ -1,0 +1,100 @@
+.navbar {
+    padding: 1.8rem 0rem 0.6rem;
+}
+
+.navbar h3 {
+    padding-left: 0.7rem;
+}
+
+.form-control{
+    margin-right: 25px;
+    padding-right: 13rem;
+    padding-left: 1rem;
+}
+
+.tableProducts{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 5px;
+    margin: 1rem 1.5rem;
+    padding: 1rem 0;
+}
+
+.tableProducts p{
+    margin-top: 1rem;
+    font-size: 18px;
+}
+
+thead{
+    font-size: 17px;
+}
+
+.table{
+    border-color: #88dde2;
+    color: #58595a;
+    font-size: 14px;  
+    vertical-align: middle;
+}
+
+.table > :not(caption) > * > *{
+    padding: .5rem 0rem;
+}
+
+.nameColumn{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.description{
+    font-size: 12px;
+    margin-top: 0.5rem;
+}
+
+.image{
+    border-radius: 5px;
+}
+
+.search{
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    font-size: 13px;
+    border-color: #b6ccde;
+    background: url('../../../assets/search.png') no-repeat right;
+    background-size: 18px;
+    background-position-x: 92%;
+}
+
+.btn-primary span{
+    font-size: 13px;
+    margin-left: 1rem;
+}
+
+.btn-primary img{
+    margin-top: -3px;
+}
+
+.containerTable{
+    margin: 0 auto;
+    width: 95%;
+    text-align: center;
+}
+
+.firstCol{
+    text-align: left;
+}
+
+.lastCol{
+    width: 9%;
+}
+
+.titleList{
+    text-align: left;
+}
+
+.name{
+    font-size: 16px;
+}
+
+.leftTextModal{
+    text-align: left;
+}

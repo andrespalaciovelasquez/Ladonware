@@ -1,0 +1,36 @@
+.container{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 5px;
+    margin-top: 4rem;
+    width: 50%;
+    padding: 2rem;
+}
+
+.title{
+    padding-bottom: 0.5rem;
+}
+
+.form-control{
+    margin: 0.5rem 0;
+}
+
+.buttons{
+    text-align: end;
+    margin-top: 1.5rem;
+}
+
+.buttons .btn-primary{
+    margin-right: 2rem;    
+}
+
+.btn {
+    padding: 6px 30px;
+}
+
+.required{
+    color: red;
+}
+
+.centerTextModal{
+    text-align: left;
+}

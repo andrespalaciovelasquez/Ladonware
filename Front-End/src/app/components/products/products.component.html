@@ -1,0 +1,90 @@
+<nav class="navbar bg-light">
+  <div class="container-fluid">
+    <h3 class="fw-bold">PRODUCTOS</h3>     
+    <div class="d-flex">
+      <input class="form-control search" type="search" placeholder="Buscar productos" aria-label="Search" (keyup)="searchProduct()" [(ngModel)]="search">
+      <a class="navbar-brand" href="/form">
+        <button type="none" class="btn btn-primary">
+          <img src="../../../assets/plus.png" width="20px" alt="plus">
+          <span class="fw-bold">Añadir Producto</span>
+        </button>
+      </a>
+    </div>
+  </div>    
+</nav> 
+<div class="tableProducts">  
+  <div class="containerTable">
+    <p class="fw-bold titleList">Lista de Productos</p>
+    <table class="table table-hover">     
+      <thead>      
+        <tr>
+          <th class="firstCol" scope="col">Nombre</th>
+          <th scope="col">Código</th>
+          <th scope="col">Categoría</th>
+          <th scope="col">Precio</th>
+          <th scope="col">Cantidad</th>
+          <th scope="col">Inventario</th>
+          <th class="lastCol" scope="col">Acción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let product of productService.products">
+          <td>      
+            <li class="d-flex justify-content-between align-items-start">
+              <img class="image" src="../../../assets/zapatos.jpg" width="80px" alt="">             
+              <div class="ms-2 me-auto firstCol">
+                <div class="name">{{ product.name }}</div>
+                <div class="description">{{ product.description }}</div>
+              </div>
+            </li>              
+            </td>
+            <td>{{ product.code }}</td> 
+            <td>{{ product.category }}</td> 
+            <td>$ {{ product.price }}</td> 
+            <td>{{ product.quantity }}</td> 
+            <td>
+              <div *ngIf="product.quantity>=10">
+                <img src="../../../assets/stock.png" alt="En Stock">
+              </div>
+              <div *ngIf="product.quantity<10 && product.quantity>0">
+                <img src="../../../assets/limitado.png" alt="Limitado">
+              </div>
+              <div *ngIf="product.quantity<=0">
+                <img src="../../../assets/agotado.png" alt="Agotado">
+              </div>
+            </td> 
+            <td>
+              <div class="">
+                <button class="btn" type="button" (click)="editProduct(product)">
+                  <img src="../../../assets/pen.png" alt="pen">
+                </button>
+                <button class="btn" type="button" data-bs-toggle="modal" data-bs-target="#deleteModal" (click)="deleteProduct(product._id)">
+                  <img src="../../../assets/trash.png" alt="trash">
+                </button>  
+
+                <div class="modal fade" id="deleteModal" tabindex="-1" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">ADVERTENCIA</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body leftTextModal">
+                        ¿Está seguro de que desea eliminar este producto de forma permanente?
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" (click)="deleteProductModal()">Eliminar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </td>
+        </tr>      
+      </tbody>
+    </table> 
+  </div>  
+</div>
+ 

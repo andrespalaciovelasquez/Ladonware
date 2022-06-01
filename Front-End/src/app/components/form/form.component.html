@@ -1,0 +1,62 @@
+<div class="container">
+    <form #productForm="ngForm" (ngSubmit)="addProduct(productForm)" enctype="multipart/form-data">
+        <div class="title">
+            <h2>{{titleForm}}</h2>
+        </div>
+        <div class="text">
+            <p>{{descriptionForm}}</p>
+        </div>
+        <input type="hidden" name="_id" [(ngModel)]="productService.selectedProduct._id">
+
+        <label for="code">Código:<span class="required"> *</span></label>
+        <input class="form-control" type="text" name="code" id="code" placeholder="ltz-480" [(ngModel)]="productService.selectedProduct.code" autofocus required>
+        
+        <label for="name">Nombre:<span class="required"> *</span></label>
+        <input class="form-control" type="text" name="name" id="name" placeholder="Nike Adapt BB 2.0" [(ngModel)]="productService.selectedProduct.name" required>
+
+        <label for="description">Descripción:<span class="required"> *</span></label>
+        <input class="form-control" type="text" name="description" id="description" placeholder="84% Poliester, 16% Elástico" [(ngModel)]="productService.selectedProduct.description" required>
+
+        <label for="category">Categoría:<span class="required"> *</span></label>
+        <select class="form-select" name="category" id="category" [(ngModel)]="productService.selectedProduct.category" required>
+            <option value="" disabled selected hidden>Seleccionar categoría</option>
+            <option value="Zapatos">Zapatos</option>
+            <option value="Gorras">Gorras</option>
+            <option value="Bolsos">Bolsos</option>
+            <option value="Camisetas">Camisetas</option>
+        </select>
+        <!--<input class="form-control" type="text" name="category" id="category" placeholder="Zapatos" [(ngModel)]="productService.selectedProduct.category" required>-->
+
+        <label for="price">Precio:<span class="required"> *</span></label>
+        <input class="form-control" type="number" name="price" id="price" placeholder="324.97" [(ngModel)]="productService.selectedProduct.price" required>
+
+        <label for="quantity">Cantidad:<span class="required"> *</span></label>
+        <input class="form-control" type="number" name="quantity" id="quantity" placeholder="35" [(ngModel)]="productService.selectedProduct.quantity" required>
+
+
+
+        <label for="image" class="form-label">Selecciona la imagen del producto</label>
+        <input (change)="fileChange($event)" class="form-control" type="file" name="image" id="image" required>
+        
+        <div class="buttons">
+            <button type="submit" class="btn btn-primary" [disabled]="productForm.invalid" data-bs-toggle="modal" data-bs-target="#createdProduct">{{btnGuardar}}</button>
+            <div class="modal fade" id="createdProduct" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Felicidades</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body centerTextModal">
+                      {{ centerTextModal }}
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal" (click)="navigateProducts()">Cerrar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>              
+            <button type="submit" class="btn btn-secondary" (click)="navigateProducts()">Cancelar</button>
+        </div>        
+    </form>
+</div>

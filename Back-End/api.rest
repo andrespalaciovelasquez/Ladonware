@@ -1,0 +1,30 @@
+###
+GET http://localhost:4000/api/products
+
+###
+POST http://localhost:4000/api/products
+Content-Type: application/json
+
+{
+    "code": 200,  
+    "name": "Nike Adapt BB 2.0",
+    "description": "84% Poliester, 16% Elástico",
+    "category": "Zapatos",
+    "price": 324.97,
+    "quantity": 4,
+    "stock": "Limitado"
+}
+
+###
+GET http://localhost:4000/api/products/6295712202650b7ee0fb139e
+
+###
+DELETE http://localhost:4000/api/products/62972bb1a238504760ad9730
+
+###
+PUT http://localhost:4000/api/products/6295712202650b7ee0fb139e
+Content-Type: application/json
+
+{
+    "quantity": 4
+}

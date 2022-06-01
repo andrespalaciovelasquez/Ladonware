@@ -1,0 +1,19 @@
+#sidebar-container{
+    min-height: 100vh;
+}
+
+#sidebar-container .logo{
+    padding: 1rem 5rem;
+}
+
+.bg-primary{
+    background-color: #0c2556 !important;
+}
+
+.title{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.3) 0px 2px 5px 0px;
+    margin-bottom: 4px;
+}
