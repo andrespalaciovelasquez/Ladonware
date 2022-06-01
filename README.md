@@ -77,7 +77,7 @@ ____________________
   1. Ingresamos al siguiente enlace https://git-scm.com/downloads
   2. Damos clic en el sistema operativo que corresponda
   3. Ejecutamos el .exe descargado
-  4.  4. Navegamos entre el menu de instalación (Next, Install)
+  4. Navegamos entre el menu de instalación (Next, Install)
 _______________________________________________________________________________
 -------------------------------------------------------------------------------
 # Instalaciones y Ejecución de Proyecto Local
