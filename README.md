@@ -171,6 +171,8 @@ En la parte superior derecha de la Pantalla Principal se encuentra un botón que
 
   <img src="https://bn1301files.storage.live.com/y4m8TTTsXHG8iI0HjGyA-dkQSZgjFSL-gpi2KkhH_r-VINxHgfzXUegm1W-lXtd2UaMgRHiOk5B18hXjzh1XzMM-rvumyL7ecGdb5rIel00iEpQLaVThh8cmKsChvgsRXvIg-Qv6d22Lxr3k8ZwQMFyCBig-gf0YxOfLbON5Gb64EbM_A1jKJzP1k8Q_Vk9ba0ju4wCL6gxZkYDwJISyIZO7-4ZOHUEF2wGbU7T0Tw3f70?encodeFailures=1&width=1684&height=921" />
   
+  <img src="https://bn1301files.storage.live.com/y4m5pUVpqNfr8baqKPG1PdP9SnsGFivo5GdNdRchxNvZprImjZs-NIhDVx407oiesBPaUEHlKpYvyxYXSOUAMwkrtAHbhdHen9eDbrOSQqu6HKrgzbgLT0z7w7EV76mVm_xzSciA0uWul5IFZ9CPQQlovrYoH-WT9rirfXfeOySTZQ388Zl2629XyC92WsgknKNLjPbJn3y36Me7qrd3DlpyReYTUZ-0W6bgLpimEEXSBY?encodeFailures=1&width=1684&height=921" />
+  
 Tanto el campo de Código, Nombre y Descripción se han definivo de tipo Texto.
 La Categoría se ha hecho por medio de un menú desplegable que brinda la opción de escoger entre Zapatos, Gorras, Bolsos y Camisetas.
 El campo Precio y Cantidad se han definido como Numéricos para, posiblemente, en un futuro realizar operaciones matemáticas con estos datos.
