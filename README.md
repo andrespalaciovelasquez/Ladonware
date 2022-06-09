@@ -7,7 +7,7 @@ Descripción
 - Crear un Proyecto en Angular - y hacer una Pantalla (CRUD) basado en el diseño adjunto. Debe tener un campo de filtro para buscar por Nombre o Id de producto
 - Crear un backend (En cualquier tecnología) el cuál debe exponer servicios Rest para consultar, crear, actualizar o eliminar registros, basado en los datos para manejar inventarios de productos. El repositorio de datos puede ser una base de datos SQL, NOSQL o en Memoria, queda a discreción del desarrollador.
 
-<img src="https://bn1301files.storage.live.com/y4mEWxt9cODcWvPrg0AIeJLPtWCnnM68noApibMQKVd_S_7renqNkPyrAqV-k4PX0dqpYk4P5nBA9VbWMUpT5kJaZ0O1lHb6SGfz20Ti9HqWVbngsFa9PNpIj4Fiftl9u_ad2ZqSMh8TdF6Nw9y7bGQyct5lGl8dyW0lYBL2-QwzZHVOyxy3nBDvHWc6dbJiimk?encodeFailures=1&width=1637&height=921" />
+<img src="https://bn1301files.storage.live.com/y4mGcwdyZHVEgNMui6DTTGSlFGag6Y8fil6n-XHNkD8pfu_-3_a-d5wdNIaOM-GB2nQKVJKSFfcw_WsL2NdyJDi0w7L5w0cKVy4B0KRSVCAugua5_RGe7pHtGm-qrRe4yR-S6Hd33AsDZ-jCI7NPq1BXuf0BqPExrSFrNnlGLTPLwoLtON24cVZoA7xyOzHD2DpMYPNElk3Frs61D5WGxnYjqxAmNN5n66-w597WVLuNYM?encodeFailures=1&width=1637&height=921" />
 
 Entregables
 -------------------------
@@ -143,10 +143,10 @@ En la parte superior derecha de la pantalla principal se ha desarrollado un busc
   <img src="https://bn1301files.storage.live.com/y4mCQvRj_4N9XR-DNEYTmNxnu9gzXc77pg5lASH3LmEbOKkeE3KVfz58E1gjZQDZdv8_x3WUVPJ_4fDXu9_yNxq7h7j2L6FYbQtwLnJI17r-6Tah1bQOb1Vucyh6_na3r7R2z3xBymvY--PP0dbSjpn8BRxEBTgrBOypykJSBiPBsm7xjEBCZRAhZceBDFqYX8VP4ydKUgHzygnUDvUUc4WUPMQ7eVr15tgTVE1UMWG6IM?encodeFailures=1&width=1682&height=921" />
 
 - Filtro de busqueda por Código:
-  <img src="https://bn1301files.storage.live.com/y4mU5SXQVLxkcWwgyicdSvGVyabSJ6hb1NQ1UsldLetVGTfdWwrCxXPIuzZrKkWjxS97WcSaYl5xStKUretgOBPwpIbR9MAzLQKrzlEgwm9IkqY_wgGa9ENqmRBkVdqEbstgMq2qsjYuJWova3My3E2BYcfn0_nFhy8S0dkK1ARAHOppPpDBNHxpJegNKMt2O1XIqSpXpyIsAM2zMMCmbwlX0yLoTKTOSYrw_LcdeXeVTk?encodeFailures=1&width=1692&height=921" />
+  <img src="https://bn1301files.storage.live.com/y4mlEC3EAgESdDUckaXn8tmbCItgOWYpwL_u4EfcesO5xfXMw3GWxQVBXX4nOarxULpV1jFDgI60bsEzzK1dFt92_tlwNl3bC4SU5IH5qD0Vk1WW3t131yJ70PNxxLSroJt4E8WBeUmXV3frmhJUbCSiYK9C9x0EC9mWV2pMoO7mhTTTI7Pu9q_DAwFKaiVQb8Eh_nPylkfEPahnkC1YGW7XLJbdI-cLdCgTpfnQegv8Hc?encodeFailures=1&width=1692&height=921" />
 
 - Filtro de busqueda por Categoría:
-  <img src="https://bn1301files.storage.live.com/y4myMQKDSFTQ1khtHJfUwpTDBPAIYgf0avBopsaEqq8erG4804tx_edoaG5WefAZrsQRjJTRFxq6zT_FPt1vn7aIoB62bcCoJ6KdNjbYLFrvnhfa8YcFJiSo_tdF7M3a61q9FecNTCCYdOfMxRdp7N4_sikftG-M5k1gMgBs3qonzKtUsEUeENSrBzzEiNyYgHXYA-Pmg_jtcPZ_pA5a5AEbw5hWsX0CNb4Yo2497s8WdQ?encodeFailures=1&width=1690&height=921" />
+  <img src="https://bn1301files.storage.live.com/y4mvpd_2woLcz2vTCz-cbXxRyA7eZjsoAzoD_BVFj15Fe1wSodqjU-PZAdjPotxVp1UKr2q5xRb0BHTvlk15uQ55QPOTgYU4QK2PktRKOv4NlhvgRUgGqBKnI-yeTcSscFqrS-iY-34cmUKQ3IwfjueTUEdXiWhFj5BdF0HXRMuVvfVI3RERYRv3HIBQrSNVVSkFFXbij2MjIqNpUz2p4gRbssqzOl7AU8NOiySTaG4OiQ?encodeFailures=1&width=1690&height=921" />
   
 ## Hover de producto (Pantalla Principal)
 Para facilitar al usuario la navegación en la lista de productos se ha decidido colocar una sombra al producto que se le tenga el mouse encima, esto con el fin de permitirle al usuario ubicar rápidamente las diferentes columnas de corresponden a dicho producto:
@@ -156,7 +156,7 @@ Para facilitar al usuario la navegación en la lista de productos se ha decidido
 ## Eliminar Producto (Pantalla Principal)
 Como se puede observar, se tiene una columna llamada "Acción" la cuál nos permite tanto Editar el producto, como Eliminarlo, en este caso al dar clic en el ícono de Eliminar producto, le saldrá un mensaje de Advertencia solicitandole que confirme que sí desea eliminar ese producto, ya que es probable que haya presionado el ícono por error y no deseaba eliminarlo. Si el usuario presiona en "Cancelar" simplemente se cerrará el mensaje de Advertencia, pero si el usuario presiona "Eliminar" se eliminará definitivamente el producto e inmediatamente se verá reflejado dicho cambio en la lista de los productos:
 
-  <img src="https://bn1301files.storage.live.com/y4mnWH3InLagHKglxd5ooZ0wzK_uknThD9v6tiDbkN8yoQMweDI58bfPjxtDegCXkUNhCzhS05qgKjUSIwqppLKMtveG4SLsZURFEWB1lpyxDsGSsGnwzNXdxJ5lOkVHGyXRYHQhvysWQy3XR7Yqtora1M0cTN1XXXd4_joga19OE26SWsod0LjYwX9dOfrSIDQZ46fhafflobvVd7dk9lfWohlR1zSQ41FrSc6vdxPuLU?encodeFailures=1&width=1685&height=921" />
+  <img src="https://bn1301files.storage.live.com/y4m_FyDJeY90zmpd7BOJNarLsswMGUbF5cCoXP9wYjA7pMxYpLdiuRQ8PzZYCaYPzBuSwFLtFTqGWDCEn2MH7QqLDRgjnjQ0_pAHDgfJbVTcDoWSm56c0qHP_JnNvAKZPrqd2MwtzEaLdmL3F0kSI6Z_6nm1exW-VtrBjtMKYYOOSWvzbvCnN_D7RsjCNXnrq6Bh_651HVxg_lxkXNO-oKDWlQseYkohodFRmyMU3EU3Ag?encodeFailures=1&width=1685&height=921" />
   
 ## Editar Producto (Pantalla Principal y Formulario)
 Como se puede observar, se tiene una columna llamada "Acción" la cuál nos permite tanto Editar el producto, como Eliminarlo, en este caso al dar clic en el ícono de Editar producto, además de que se cargan de manerá automática los valores actuales en los diferentes campos de formulario para proceder a modificarlo. 
@@ -169,9 +169,9 @@ Al darle clic en el botón de "Cancelar" el aplicativo nos devolverá por medio 
 ## Añadir Producto (Pantalla Principal y Formulario)
 En la parte superior derecha de la Pantalla Principal se encuentra un botón que dice "Añadir Producto", al presionar dicho botón el formulario, por medio de Angular Routing, nos moveremos a la ruta "/form" sin embargo el programa detecta que lo que el usuario desea realizar es Añadir un Nuevo Producto por lo cuál se generá de forma dinámica un formulario con palabras claves que hacen alusión a la Actualización de un producto y nos presentará un formulario totalmente en blanco para rellenar los campos del nuevo producto. El formulario por medio de los placeholder le brinda una idea al usuario de lo que podría ir en dicho campo. Además, por defecto el botón de "Guardar" se encuentra deshabilitado y para poder activarlo, debemos rellenar todos los campos que son obligatorios (*):
 
-  <img src="https://bn1301files.storage.live.com/y4m8TTTsXHG8iI0HjGyA-dkQSZgjFSL-gpi2KkhH_r-VINxHgfzXUegm1W-lXtd2UaMgRHiOk5B18hXjzh1XzMM-rvumyL7ecGdb5rIel00iEpQLaVThh8cmKsChvgsRXvIg-Qv6d22Lxr3k8ZwQMFyCBig-gf0YxOfLbON5Gb64EbM_A1jKJzP1k8Q_Vk9ba0ju4wCL6gxZkYDwJISyIZO7-4ZOHUEF2wGbU7T0Tw3f70?encodeFailures=1&width=1684&height=921" />
+  <img src="https://bn1301files.storage.live.com/y4mYbIcMS7E4lwZzH3T127mcQ9m9phFowr2On46xSSVCAiXFn4NE7C7bWOh7QfUlZ-xzC3XZpTKj-qyJkRh9UBgD9Qv0WKebvV2jvm0OAceQH4d9ndb2xWJlz57-IGrZ3Y9RHHEKrvqWMFOdbj00bUFMbtlsI2yPcShyGix4J8pV_e_FxcN9mtPuwq2LXxsAZlcERzIXk8gbAf3pRFqDMJIpV-94V1Y-1-d43cofWhR7kQ?encodeFailures=1&width=1684&height=921" />
   
-  <img src="https://bn1301files.storage.live.com/y4m5pUVpqNfr8baqKPG1PdP9SnsGFivo5GdNdRchxNvZprImjZs-NIhDVx407oiesBPaUEHlKpYvyxYXSOUAMwkrtAHbhdHen9eDbrOSQqu6HKrgzbgLT0z7w7EV76mVm_xzSciA0uWul5IFZ9CPQQlovrYoH-WT9rirfXfeOySTZQ388Zl2629XyC92WsgknKNLjPbJn3y36Me7qrd3DlpyReYTUZ-0W6bgLpimEEXSBY?encodeFailures=1&width=1684&height=921" />
+  <img src="https://bn1301files.storage.live.com/y4mGZ_esHILDHefcru26B0-BzgfN4zv1fCgOLMfBspA_c-bLUTYkY7PRulfduZXWru_voYFkZln_I1_hv6j3B4t5bmy0TudFoE7g4vr8NTR_dRn5btXO1JyQtZrIj5FiyUw-75hhMyBHbxc3MSg62qIUe5d1IPgY2NVLC3Rpxwr0xyF1PC2avhqiu3rvoCrkoTXax0BzeHq5_mnPBjz3N2Qm4muF921d3P1O1CuA373YtA?encodeFailures=1&width=1684&height=921" />
   
 Tanto el campo de Código, Nombre y Descripción se han definivo de tipo Texto.
 La Categoría se ha hecho por medio de un menú desplegable que brinda la opción de escoger entre Zapatos, Gorras, Bolsos y Camisetas.
